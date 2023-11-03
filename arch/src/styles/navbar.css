@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #ffd166;; /* Set the background color of the navbar */
+    color: #fff; /* Set the text color */
+    padding: 10px 20px; /* Add padding to the navbar */
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Display the list items horizontally */
+  }
+  
+  .nav-list li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px; /* Add space between the navigation items */
+  }
+  
+  .nav-list li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
