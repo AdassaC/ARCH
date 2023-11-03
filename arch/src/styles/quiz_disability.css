@@ -1,0 +1,30 @@
+.disability-quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .quiz-description {
+    width: 66.67%;
+    margin: 0 auto; /* Center the paragraph horizontally within the container */
+  }
+  
+  .button-container {
+    margin-top: -15rem; /* Move the button up by increasing the negative margin-top */
+  }
+  
+    .quiz-button {
+      margin-top: -100px;
+      background-color: #0074d9;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 4px;
+    }
+    
+    .quiz-button:hover {
+      background-color: #0056b3;
+    }
