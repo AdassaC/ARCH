@@ -4,21 +4,23 @@ import BiasCheckerPage from './components/check_your_bias';
 import QuizLGBTQ from './components/quiz_lgbtq';
 import QuizBIPOC from './components/quiz-BIPOC';
 import QuizDisability from './components/quiz_disability';
+import BIPOC from './components/bipoc';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/checkYourBias" element={<BiasCheckerPage />} />
-          <Route path="/quiz_lgbtq+" element={<QuizLGBTQ />} />
-          <Route path="/quiz_disability" element={<QuizDisability />} />
-          <Route path="/quiz_BIPOC" element={<QuizBIPOC />} />
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
-  );
+		<BrowserRouter>
+			<div className="App">
+				<Routes>
+					<Route path="/checkYourBias" element={<BiasCheckerPage />} />
+					<Route path="/quiz_lgbtq+" element={<QuizLGBTQ />} />
+					<Route path="/quiz_disability" element={<QuizDisability />} />
+					<Route path="/quiz_BIPOC" element={<QuizBIPOC />} />
+					<Route path="/BIPOC" element={<BIPOC />} />
+					<Route path="/" element={<Home />} />
+				</Routes>
+			</div>
+		</BrowserRouter>
+	);
 }
 
 function Home() {
