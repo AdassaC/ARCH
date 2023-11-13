@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/home';
 import BiasCheckerPage from './components/check_your_bias';
 import QuizLGBTQ from './components/quiz_lgbtq';
 import QuizBIPOC from './components/quiz-BIPOC';
@@ -21,10 +22,6 @@ function App() {
 			</div>
 		</BrowserRouter>
 	);
-}
-
-function Home() {
-  return <h1>Welcome to the Home Page</h1>;
 }
 
 export default App;

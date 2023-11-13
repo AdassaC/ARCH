@@ -1,0 +1,9 @@
+.left-align {
+  text-align: left;
+  }
+
+.left-align p {
+  padding-top: 5px;
+  padding-bottom: 5px; /* Adjust the value to increase or decrease the space */
+}
+  
