@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './navbar';
+import Footer from './footer';
 import '../styles/quiz_disability.css'; // Import the CSS file
-
 class QuizTemplatePage extends React.Component {
   render() {
     return (
@@ -24,7 +24,8 @@ class QuizTemplatePage extends React.Component {
         <div className="button-container">
           <button className="quiz-button">Take the Quiz</button>
         </div>
-      </div>
+        <Footer />
+        </div>
       </div>
       
     );

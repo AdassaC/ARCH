@@ -28,3 +28,26 @@
     .quiz-button:hover {
       background-color: #0056b3;
     }
+    
+    .vertical-buttons {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* Increased gap between buttons */
+    }
+    
+    .vertical-buttons button {
+      padding: 30px 60px; /* Increased padding to make the buttons larger */
+      font-size: 18px; /* Increased font size */
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .vertical-buttons button:hover {
+      background-color: #0056b3;
+    }
+    
