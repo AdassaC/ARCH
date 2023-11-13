@@ -63,7 +63,7 @@ class Home extends React.Component{
                     
                     <button className="contact-us-btn">
                       <div className="overlap-3">
-                        <a href="">
+                        <a href="mailto:archteamproject@gmail.com">
                             <div className="text-wrapper-8">Contact us</div>
                         </a>
                       </div>
