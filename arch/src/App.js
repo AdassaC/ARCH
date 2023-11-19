@@ -16,7 +16,7 @@ function App() {
 					<Route path="/quiz_lgbtq+" element={<QuizLGBTQ />} />
 					<Route path="/quiz_disability" element={<QuizDisability />} />
 					<Route path="/quiz_BIPOC" element={<QuizBIPOC />} />
-					<Route path="/BIPOC" element={<BIPOC />} />
+					<Route path="/bipoc" element={<BIPOC />} />
 					<Route path="/" element={<Home />} />
 				</Routes>
 			</div>

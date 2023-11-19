@@ -29,25 +29,25 @@
       background-color: #0056b3;
     }
     
-    .vertical-buttons {
-      position: fixed;
-      bottom: 10px;
-      left: 10px;
+    .other-quizzes-container {
       display: flex;
       flex-direction: column;
-      gap: 20px; /* Increased gap between buttons */
+      align-items: center;
+      margin-top: -300px;
+      margin-left: -500px;
     }
     
-    .vertical-buttons button {
-      padding: 30px 60px; /* Increased padding to make the buttons larger */
-      font-size: 18px; /* Increased font size */
-      background-color: #007bff;
+    .other-quizzes-container button {
+      margin-bottom: 100px;
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #3498db;
       color: #fff;
       border: none;
+      border-radius: 4px;
       cursor: pointer;
     }
     
-    .vertical-buttons button:hover {
-      background-color: #0056b3;
+    .other-quizzes-container button:hover {
+      background-color: #2980b9;
     }
-    

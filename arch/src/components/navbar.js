@@ -9,13 +9,13 @@ function Navbar() {
 					<Link to="/">Home</Link>
 				</li>
 				<li>
-					<Link to="./bipoc">BIPOC</Link>
+					<Link to="/bipoc">BIPOC</Link>
 				</li>
 				<li>
-					<Link to="./lgbtq">LGBTQ</Link>
+					<Link to="/lgbtq">LGBTQ</Link>
 				</li>
 				<li>
-					<Link to="./disability">People w/ Disabilties</Link>
+					<Link to="/disability">People w/ Disabilties</Link>
 				</li>
 				<li>
 					<Link to="/checkYourBias">Quizzes</Link>

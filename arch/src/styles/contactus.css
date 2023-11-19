@@ -1,0 +1,28 @@
+.contact-us-container {
+  margin-top: -300px;
+  margin-left: 450px;
+  background-color: #ffe5ec;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.linkedin-list {
+  list-style: none;
+  padding: 0;
+}
+
+.linkedin-list li {
+  margin: 10px 0;
+}
+
+.linkedin-list a {
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: bold;
+}
+
+.linkedin-list a:hover {
+  color: #004471;
+}

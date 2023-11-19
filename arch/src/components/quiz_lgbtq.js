@@ -1,8 +1,16 @@
 import React from 'react';
 import Navbar from './navbar';
 import '../styles/quiz_lgbtq.css'; // Import the CSS file
+import { Link } from 'react-router-dom';
 
 class QuizTemplatePage extends React.Component {
+  state = {
+    linkedinLinks: [
+      { id: 1, name: 'Muning Chen', link: 'https://www.linkedin.com/in/muning-chen-003760217/' },
+      { id: 2, name: 'Adassa Coimin', link: 'https://www.linkedin.com/in/adassa-coimin/' },
+      { id: 3, name: 'Dynie Mesoneuvre', link: 'https://www.linkedin.com/in/dyniem/' },
+    ],
+  };
   render() {
     return (
       <div>
@@ -20,8 +28,33 @@ class QuizTemplatePage extends React.Component {
             as sassy and fierce as your favorite drag queen!
             </p>
         <div className="button-container">
-          <button className="quiz-button">Take the Quiz</button>
+          <Link to = 'https://docs.google.com/forms/d/e/1FAIpQLSc0OUqsSKiIWvaZOqrkxRcunFqMM-oVmbPLpARv83Iqp-kGdw/viewform?usp=sf_link'>
+            <button className="quiz-button">Take the Quiz</button>
+          </Link>
+          
         </div>
+        <div className="other-quizzes-container">
+          <Link to = '/quiz_bipoc'>
+            <button>Take the BIPOC Quiz</button>
+          </Link>
+          <Link to = '/quiz_disability'>
+            <button>Take the Disability Awareness Quiz</button>
+          </Link>
+        </div>
+        <div className="contact-us-container">
+        <h2>Contact Us!</h2>
+        <p>Connect with us on LinkedIn:</p>
+
+        <ul className="linkedin-list">
+          {this.state.linkedinLinks.map((person) => (
+            <li key={person.id}>
+              <a href={person.link} target="_blank" rel="noopener noreferrer">
+                {person.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
       </div>
       </div>
       
