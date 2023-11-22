@@ -22,6 +22,7 @@ function App() {
 					<Route path="/disability" element={<Disability />} />
 					<Route path="/lgbtq" element={<LGBTQ />} />
 					<Route path="/" element={<Home />} />
+					<Route path="/home" element={<Home />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
