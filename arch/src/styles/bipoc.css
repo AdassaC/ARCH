@@ -121,3 +121,22 @@ img
   top: 63px;
   width: 478px;
 }
+
+.challenges {
+  color: white; /* Set text color to white */
+  /* Additional styling for the "STUDENT ALLY TASKS" heading */
+}
+
+.tasks-list {
+  color: white; /* Set text color to white */
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  position: absolute;
+  bottom: 300px;
+}
+
+.tasks-list li {
+  margin-bottom: 8px; /* Adjust spacing between list items */
+  /* Additional styling for individual list items */
+  color: white; /* Set text color to white */
+}
