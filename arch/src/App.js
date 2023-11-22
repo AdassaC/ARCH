@@ -6,6 +6,8 @@ import QuizLGBTQ from './components/quiz_lgbtq';
 import QuizBIPOC from './components/quiz-BIPOC';
 import QuizDisability from './components/quiz_disability';
 import BIPOC from './components/bipoc';
+import Disability from './components/disability';
+import LGBTQ from './components/lgbtq';
 
 function App() {
   return (
@@ -17,8 +19,8 @@ function App() {
 					<Route path="/quiz_disability" element={<QuizDisability />} />
 					<Route path="/quiz_BIPOC" element={<QuizBIPOC />} />
 					<Route path="/bipoc" element={<BIPOC />} />
-					<Route path="/disability" element={<BIPOC />} />
-					<Route path="/lgbtq" element={<BIPOC />} />
+					<Route path="/disability" element={<Disability />} />
+					<Route path="/lgbtq" element={<LGBTQ />} />
 					<Route path="/" element={<Home />} />
 				</Routes>
 			</div>
