@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Link } from 'react-router-dom';
 import hero from '../resources/hero.png';
 import '../styles/home.css'; // Import the CSS file
@@ -45,19 +46,24 @@ class Home extends React.Component{
                     <div className="text-wrapper-4">A.R.C.H.</div>
                     <div className="overlap-group-wrapper">
                       <div className="overlap-2">
+                        <h4>
+                        🌟Welcome to A.R.C.H.Allyship Resources for Change and Harmony!🌟
+                        </h4>
                         <p className="p">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel augue eu sem pharetra ultrices. In
-                          vel ipsum at mauris tincidunt feugiat. Duis sit amet est id massa pellentesque consequat.
+                        At A.R.C.H., we believe in the power of allyship to create positive change in the workplace. 
+                        Our mission is to empower you with the knowledge and resources needed to champion diversity, inclusion, and authentic expression.
                         </p>
+                        {/* <h4>
+                        🌈 Why A.R.C.H.?
+                        </h4> */}
                         <p className="text-wrapper-5">
-                          Nullam non erat consequat, cursus turpis sed, aliquam metus. Nulla eleifend risus vitae eros gravida,
-                          non feugiat lacus efficitur. Fusce tincidunt malesuada nulla id mollis. Etiam elementum viverra
-                          ultricies. Fusce eleifend interdum turpis.
+                        Embark on a journey of understanding and allyship with us. Our platform is designed to be a beacon of change, fostering an inclusive environment where everyone's voice matters. 
+                        We're not just a resource hub; we're a community committed to making a real impact.
                         </p>
-                        <p className="text-wrapper-6">
+                        {/* <p className="text-wrapper-6">
                           Vestibulum et luctus orci. Sed eu purus pellentesque, consequat orci in, imperdiet ipsum. Etiam
                           faucibus sollicitudin sem, vel vestibulum justo tincidunt sed.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                     
