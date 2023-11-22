@@ -22,13 +22,13 @@ class Home extends React.Component{
                         </div>
                     </a>
                     <a href="">
-                        <div className="div">
-                            LGBTQ
+                        <div className="text-wrapper-2">
+                            BIPOC
                         </div>
                     </a>
                     <a href="">
-                        <div className="text-wrapper-2">
-                            BIPOC
+                        <div className="div">
+                            LGBTQ
                         </div>
                     </a>
                     <div className="quizzes-btn">
