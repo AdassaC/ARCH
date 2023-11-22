@@ -17,6 +17,8 @@ function App() {
 					<Route path="/quiz_disability" element={<QuizDisability />} />
 					<Route path="/quiz_BIPOC" element={<QuizBIPOC />} />
 					<Route path="/bipoc" element={<BIPOC />} />
+					<Route path="/disability" element={<BIPOC />} />
+					<Route path="/lgbtq" element={<BIPOC />} />
 					<Route path="/" element={<Home />} />
 				</Routes>
 			</div>
