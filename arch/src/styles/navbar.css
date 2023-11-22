@@ -1,7 +1,10 @@
 .navbar {
-    background-color: #ffd166;; /* Set the background color of the navbar */
-    color: #fff; /* Set the text color */
+    background-color: #ffd6ff;; /* Set the background color of the navbar */
     padding: 10px 20px; /* Add padding to the navbar */
+    margin: 10px;
+    border-style: solid;
+    border-width: 3px;
+   
   }
   
   .nav-list {
@@ -17,9 +20,10 @@
   
   .nav-list li a {
     text-decoration: none;
-    color: #fff;
+    color: #030303;
     font-weight: bold;
-    margin-right: 20px; /* Add space between the navigation items */
+    margin-right: 10px; /* Add space between the navigation items */
+   
   }
   
   .nav-list li a:hover {

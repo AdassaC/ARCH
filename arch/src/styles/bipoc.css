@@ -1,0 +1,123 @@
+.content-template {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-template .div {
+  background-color: #ffffff;
+  height: 1676px;
+  position: relative;
+  width: 1200px;
+}
+
+
+
+
+.content-template .group {
+  height: 296px;
+  left: 74px;
+  position: absolute;
+  top: 233px;
+  width: 573px;
+}
+
+ .p {
+  color: #073b4c;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 555px;
+}
+
+img
+{
+    position:relative;
+    left: 700px;
+    top: 200px;
+}
+
+
+.content-template .overlap-group-wrapper {
+  height: 236px;
+  left: 67px;
+  position: absolute;
+  top: 584px;
+  width: 1081px;
+}
+
+
+
+
+
+
+.content-template .text-wrapper-13 {
+  color: #073b4c;
+  font-family: "Big Shoulders Display-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 94px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 125px;
+  width: 478px;
+}
+
+.content-template .overlap-wrapper {
+  height: 735px;
+  left: 31px;
+  position: absolute;
+  top: 820px;
+  width: 567px;
+}
+
+.content-template .overlap-2 {
+  background-color: #073b4c;
+  height: 735px;
+  position: relative;
+  width: 565px;
+  left: 100px;
+}
+
+ .overlap3 {
+  background-color: #e8de59;
+  height: 735px;
+  position: absolute;
+  width: 565px;
+  left: 650px;
+  bottom: 218px;
+  z-index: 0;
+}
+
+.resources {
+  height: 743px;
+  left: 150px;
+  position: absolute;
+  top: 60px;
+  width: 527px;
+  font-size: 50px;
+  font-weight: 400;
+  z-index: 5;
+}
+
+
+ .challenges {
+  color: #ffffff;
+  font-family: "Big Shoulders Display-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 63px;
+  width: 478px;
+}
