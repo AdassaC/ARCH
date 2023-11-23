@@ -12,7 +12,7 @@ const BIPOC = () =>
 			<Navbar />
 			<div className="content-template">
 				<div className="div">
-					<div className="resources_box">
+					<div className="res_box">
 						<div className="resources">RESOURCES</div>
 						<div className="box_text">
 							<h2>

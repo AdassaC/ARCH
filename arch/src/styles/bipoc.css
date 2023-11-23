@@ -84,9 +84,10 @@ img
   left: 100px;
 }
 
- .resources_box {
+ .res_box { 
   background-color: #e8de59;
-  height: 735px;
+  top: 724px;
+  height: 800px;
   position: absolute;
   width: 565px;
   left: 650px;
