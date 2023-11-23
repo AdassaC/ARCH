@@ -156,7 +156,7 @@ const LGBTQ = () => {
 							</h3>
 
 							<h2 className="cheader">
-								Queer
+								Queer Communities
 							</h2>
 							<h3 className="resource_link">
 								<a className="clink" href="https://www.lgbtqandall.com/what-does-it-to-be-queer/">
