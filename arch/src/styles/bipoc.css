@@ -13,12 +13,12 @@
   width: 1200px;
 }
 
-.content-template .group {
-  height: 296px;
-  left: 74px;
+.content-template .overview {
+  height: fit-content;
+  /*left: 74px;*/
   position: absolute;
-  top: 233px;
-  width: 573px;
+  top: 120px;
+  width: fit-content;
 }
 
  .p {
@@ -29,9 +29,9 @@
   left: 12px;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
   top: 0;
-  width: 555px;
+  /*position: absolute;
+  width: 555px;*/
 }
 
 img
@@ -46,7 +46,7 @@ img
   height: 236px;
   left: 67px;
   position: absolute;
-  top: 584px;
+  top: 500px;
   width: 1081px;
 }
 
@@ -55,7 +55,7 @@ img
 
 
 
-.content-template .text-wrapper-13 {
+.content-template .title {
   color: #073b4c;
   font-family: "Big Shoulders Display-Regular", Helvetica;
   font-size: 50px;
@@ -65,7 +65,7 @@ img
   line-height: normal;
   position: absolute;
   top: 125px;
-  width: 478px;
+  /*width: 478px;*/
 }
 
 .content-template .overlap-wrapper {

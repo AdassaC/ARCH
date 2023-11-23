@@ -74,18 +74,33 @@ const BIPOC = () =>
 						</p> */}
 
 					</div>
-					<div className="group">
-						<p className="p">
+					<div className="overview">
+						{/* <p className="p">
 							"👥 Be the Change:
 							Use A.R.C.H. as your go-to resource guide during conflicts. Our goal is to provide a safe space for learning, ensuring individuals from marginalized communities feel seen and heard.
 							Join us in creating a workplace where allyship isn't just a concept – it's a way of life. Together, let's build a bridge to change and harmony."
-            			</p>
+            			</p> */}
+						<p className="p">
+							The term BIPOC encompasses Black, Indigenous, and people of color, referring collectively to nonwhite individuals. In the United States, Black Americans constitute 13.4%, Indigenous people make up 1.3%, and diverse communities from East and South Asia, the Pacific Islands, nonwhite Latinx/Hispanics, and Arab and Middle Eastern North African (MENA) backgrounds contribute varying percentages to the population.
+						</p>
+						<p className="p">
+							However, the U.S. Census Bureau's limited racial categories fail to encompass the complexities of ethnicity within racial groups, especially for Latinx individuals who can belong to any race and MENA people categorized as "other." This homogenization spurred the creation of BIPOC to recognize the distinct racial experiences of Black and Indigenous individuals often overlooked by traditional labels like POC.
+						</p>
+						<p className="p">
+							BIPOC emphasizes the specific struggles against racism and white supremacy faced by Black and Indigenous communities, differentiating it from the more generalized term POC, which has been perceived as diluted by white institutions. Activists and organizers gravitate towards BIPOC due to its political resonance and awareness of language use.
+						</p>
+						<p className="p">
+							While BIPOC holds significance in the U.S. and Canada due to their histories with Black and Indigenous populations, POC might be more appropriate outside these contexts or when referring to non-Black and non-Indigenous groups. It's noteworthy that movements like BLM advocate primarily for Black people but encompass a diverse multiracial coalition.
+            			</p> 
+						<p className="p">
+							The usage of BIPOC versus POC can vary based on context and cultural relevance. While BIPOC might be more appropriate in discussions involving the specific experiences of Black and Indigenous individuals, POC might be used in broader contexts encompassing all non-white communities. Additionally, the distinction helps in acknowledging the central focus of movements like Black Lives Matter on issues primarily affecting Black communities while still welcoming support and collaboration from diverse racial backgrounds.
+            			</p> 
             
           </div>
-          <img src={Placeholder} alt="placeholder"/>
+          {/* <img src={Placeholder} alt="placeholder"/> */}
 				</div>
 				<div className="group-2" />
-				<div className="text-wrapper-13">Black, Indigenous, and People of Color (BIPOC)</div>
+				<div className="title">Black, Indigenous, and People of Color (BIPOC)</div>
 				<div className="overlap-wrapper">
 					<div className="challenges_box">
 						<div className="challenges">CHALLENGES</div>
