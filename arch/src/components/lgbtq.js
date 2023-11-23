@@ -103,6 +103,13 @@ const LGBTQ = () => {
                         <p className="p">
                             The "plus" symbolizes identities not explicitly covered by the initial letters. Variations of the acronym have emerged to better represent the diversity within the community. The continuous evolution of the acronym reflects the evolving understanding and recognition of different sexual orientations and gender identities, striving for inclusivity and representation.
                         </p>
+                        <p className="p">
+                            LGBTQI+ individuals and those termed "sexual and gender diverse" encounter discrimination at structural and personal levels, affecting their well-being and causing disparities across various aspects of life. Despite federal efforts, the absence of comprehensive laws at both federal and state levels leaves many vulnerable to discrimination. The Biden-Harris administration has worked to bolster protections; however, a troubling increase in state-level attacks, particularly targeting youth and transgender rights, has emerged. These policies contribute to the rise of anti-LGBTQI+ and anti-transgender rhetoric, disinformation, and violence.                        
+                        </p>
+                        {/*
+                        <p className="p">
+                            Such discrimination affects the well-being of LGBTQI+ and sexually diverse individuals across various life domains. Despite federal attempts to improve nondiscrimination laws, the lack of comprehensive regulations at both federal and state levels leaves many vulnerable to bias. Although the Biden-Harris administration has acted to reinforce protections, there's a worrisome upsurge in state-level assaults on LGBTQI+ rights, particularly against youth and transgender individuals. These policies fuel the growth of anti-LGBTQI+ and anti-transgender rhetoric, misinformation, and violence in society.
+                    </p>*/}
             
           </div>
           {/* <img src={Placeholder} alt="placeholder"/> */}
