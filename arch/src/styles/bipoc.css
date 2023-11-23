@@ -76,30 +76,30 @@ img
   width: 567px;
 }
 
-.content-template .overlap-2 {
+.content-template .challenges_box {
   background-color: #073b4c;
-  height: 735px;
-  position: relative;
+  height: 800px;
+  position: absolute;
   width: 565px;
   left: 100px;
 }
 
- .overlap3 {
+ .resources_box {
   background-color: #e8de59;
   height: 735px;
   position: absolute;
   width: 565px;
   left: 650px;
   bottom: 218px;
-  z-index: 0;
+  /*z-index: 0;*/
 }
 
 .resources {
-  height: 743px;
+  /*height: 743px;
+  width: 527px;*/
   left: 150px;
   position: absolute;
   top: 60px;
-  width: 527px;
   font-size: 50px;
   font-weight: 400;
   z-index: 5;
@@ -117,4 +117,30 @@ img
   position: absolute;
   top: 63px;
   width: 478px;
+}
+
+.box_text {
+  margin-top: 140px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.resource_link {
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.rlink {
+  text-decoration: none;
+  color: #073b4c;
+}
+
+.clink {
+  text-decoration: none;
+  color: #e8de59;
+}
+
+.cheader {
+  color: white;
 }
