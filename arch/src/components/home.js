@@ -16,17 +16,17 @@ class Home extends React.Component{
                             Home
                         </div>
                     </a>
-                    <a href="">
+                    <a href="/disability">
                         <div className="text-wrapper">
                             Disability
                         </div>
                     </a>
-                    <a href="">
+                    <a href="/bipoc">
                         <div className="text-wrapper-2">
                             BIPOC
                         </div>
                     </a>
-                    <a href="">
+                    <a href="/lgbtq">
                         <div className="div">
                             LGBTQ
                         </div>

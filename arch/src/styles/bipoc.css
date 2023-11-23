@@ -13,15 +13,12 @@
   width: 1200px;
 }
 
-
-
-
-.content-template .group {
-  height: 296px;
-  left: 74px;
+.content-template .overview {
+  height: fit-content;
+  /*left: 74px;*/
   position: absolute;
-  top: 233px;
-  width: 573px;
+  top: 120px;
+  width: fit-content;
 }
 
  .p {
@@ -32,9 +29,9 @@
   left: 12px;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
   top: 0;
-  width: 555px;
+  /*position: absolute;
+  width: 555px;*/
 }
 
 img
@@ -49,7 +46,7 @@ img
   height: 236px;
   left: 67px;
   position: absolute;
-  top: 584px;
+  top: 500px;
   width: 1081px;
 }
 
@@ -58,7 +55,7 @@ img
 
 
 
-.content-template .text-wrapper-13 {
+.content-template .title {
   color: #073b4c;
   font-family: "Big Shoulders Display-Regular", Helvetica;
   font-size: 50px;
@@ -68,7 +65,7 @@ img
   line-height: normal;
   position: absolute;
   top: 125px;
-  width: 478px;
+  /*width: 478px;*/
 }
 
 .content-template .overlap-wrapper {
@@ -79,30 +76,30 @@ img
   width: 567px;
 }
 
-.content-template .overlap-2 {
+.content-template .challenges_box {
   background-color: #073b4c;
-  height: 735px;
-  position: relative;
+  height: 800px;
+  position: absolute;
   width: 565px;
   left: 100px;
 }
 
- .overlap3 {
+ .resources_box {
   background-color: #e8de59;
   height: 735px;
   position: absolute;
   width: 565px;
   left: 650px;
   bottom: 218px;
-  z-index: 0;
+  /*z-index: 0;*/
 }
 
 .resources {
-  height: 743px;
+  /*height: 743px;
+  width: 527px;*/
   left: 150px;
   position: absolute;
   top: 60px;
-  width: 527px;
   font-size: 50px;
   font-weight: 400;
   z-index: 5;
@@ -122,21 +119,28 @@ img
   width: 478px;
 }
 
-.challenges {
-  color: white; /* Set text color to white */
-  /* Additional styling for the "STUDENT ALLY TASKS" heading */
+.box_text {
+  margin-top: 140px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
-.tasks-list {
-  color: white; /* Set text color to white */
-  list-style-type: none; /* Remove default list styling */
-  padding: 0; /* Remove default padding */
-  position: absolute;
-  bottom: 300px;
+.resource_link {
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.tasks-list li {
-  margin-bottom: 8px; /* Adjust spacing between list items */
-  /* Additional styling for individual list items */
-  color: white; /* Set text color to white */
+.rlink {
+  text-decoration: none;
+  color: #073b4c;
+}
+
+.clink {
+  text-decoration: none;
+  color: #e8de59;
+}
+
+.cheader {
+  color: white;
 }
