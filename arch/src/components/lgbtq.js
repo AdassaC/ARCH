@@ -21,6 +21,16 @@ const LGBTQ = () => {
                                     How to Be a Better Ally to the LGBTQ+ Community 
 								</a>
 							</h3>
+                            <h3 className="resource_link">
+								<a className="rlink" href="https://www.hrc.org/resources/being-an-lgbtq-ally">
+                                    Being an LGBTQ Ally
+								</a>
+							</h3>
+                            <h3 className="resource_link">
+								<a className="rlink" href="https://www.thetrevorproject.org/resources/guide/a-guide-to-being-an-ally-to-transgender-and-nonbinary-youth/">
+                                    Guide to Being an Ally to Transgender and Nonbinary Young People 
+								</a>
+							</h3>
 							<h3 className="resource_link">
 								<a className="rlink" href="https://www.forbes.com/sites/forbescoachescouncil/2022/06/15/how-to-be-an-lgbtq-ally-at-work/?sh=4d0b9d4d1c44">
 								    How To Be An LGBTQ+ Ally At Work
@@ -145,26 +155,15 @@ const LGBTQ = () => {
 								</a>							
 							</h3>
 
-							{/*<h2 className="cheader">
+							<h2 className="cheader">
 								Queer
 							</h2>
 							<h3 className="resource_link">
-								<a className="clink" href="https://poorvucenter.yale.edu/ImplicitBiasAwareness"> 
-									The Long History of Anti-Latino Discrimination in America 
+								<a className="clink" href="https://www.lgbtqandall.com/what-does-it-to-be-queer/">
+                                    What Does It Mean To Be Queer? 
 								</a>							
-							</h3>
-
-							<h2 className="cheader">
-								Middle East and North Africa, Arab
-							</h2>
-							<h3 className="resource_link">
-								<a className="clink" href="https://poorvucenter.yale.edu/ImplicitBiasAwareness"> 
-									Guide to Understanding Israel-Palestine Conflict
-								</a>							
-                            </h3>*/}
-							
+							</h3>						
 						</div>
-					
 					</div>
 				</div>
 			</div>
