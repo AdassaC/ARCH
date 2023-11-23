@@ -14,9 +14,11 @@ const BIPOC = () =>
 				<div className="div">
 					<div className="overlap3">
 						<div className="resources">RESOURCES</div>
-						<h3 >
-							Informative and Educational Resources
-						</h3>
+						<div className="resources_text">
+							<h3 >
+								Informative and Educational Resources
+							</h3>
+						</div>
 						{/* <p>
 						https://poorvucenter.yale.edu/ImplicitBiasAwareness
 						</p>
