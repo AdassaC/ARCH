@@ -109,12 +109,12 @@ const BIPOC = () =>
 								Black
 							</h2>
 							<h3 className="resource_link">
-								<a className="clink" href="https://poorvucenter.yale.edu/ImplicitBiasAwareness"> 
+								<a className="clink" href="https://press.rebus.community/introductiontocommunitypsychology/chapter/oppression-and-power/"> 
 									Oppression and Power
 								</a>							
 							</h3>
 							<h3 className="resource_link">
-								<a className="clink" href="https://poorvucenter.yale.edu/ImplicitBiasAwareness"> 
+								<a className="clink" href="https://www.apa.org/monitor/2016/11/cover-inequality-school"> 
 									Racial Inequality in Schools
 								</a>							
 							</h3>
@@ -123,12 +123,12 @@ const BIPOC = () =>
 								Indigenous
 							</h2>
 							<h3 className="resource_link">
-								<a className="clink" href="https://poorvucenter.yale.edu/ImplicitBiasAwareness"> 
+								<a className="clink" href="https://www.ncoa.org/article/american-indians-and-alaska-natives-key-demographics-and-characteristics"> 
 									The American Indian/Alaska Native Population in the U.S. and Their Unique Challenges
 								</a>							
 							</h3>
 							<h3 className="resource_link">
-								<a className="clink" href="https://poorvucenter.yale.edu/ImplicitBiasAwareness"> 
+								<a className="clink" href="https://www.un.org/development/desa/dspd/2021/04/indigenous-peoples-sustainability/"> 
 									Challenges and Opportunities for Indigenous Peoples’ Sustainability
 								</a>							
 							</h3>
@@ -137,7 +137,7 @@ const BIPOC = () =>
 								Asian American and Pacific Islander
 							</h2>
 							<h3 className="resource_link">
-								<a className="clink" href="https://poorvucenter.yale.edu/ImplicitBiasAwareness"> 
+								<a className="clink" href="https://www.nbcnews.com/news/asian-america/model-minority-myth-says-asians-are-successful-dangerous-rcna420"> 
 									The Model Minority Myth
 								</a>							
 							</h3>
@@ -146,7 +146,7 @@ const BIPOC = () =>
 								LatinX
 							</h2>
 							<h3 className="resource_link">
-								<a className="clink" href="https://poorvucenter.yale.edu/ImplicitBiasAwareness"> 
+								<a className="clink" href="https://www.history.com/news/the-brutal-history-of-anti-latino-discrimination-in-america"> 
 									The Long History of Anti-Latino Discrimination in America 
 								</a>							
 							</h3>
@@ -155,7 +155,7 @@ const BIPOC = () =>
 								Middle East and North Africa, Arab
 							</h2>
 							<h3 className="resource_link">
-								<a className="clink" href="https://poorvucenter.yale.edu/ImplicitBiasAwareness"> 
+								<a className="clink" href="https://www.aljazeera.com/news/2023/10/9/whats-the-israel-palestine-conflict-about-a-simple-guide"> 
 									Guide to Understanding Israel-Palestine Conflict
 								</a>							
 							</h3>
