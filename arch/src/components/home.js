@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Link } from 'react-router-dom';
 import hero from '../resources/hero.png';
 import '../styles/home.css'; // Import the CSS file
@@ -47,7 +46,7 @@ class Home extends React.Component{
                     <div className="overlap-group-wrapper">
                       <div className="overlap-2">
                         <h4>
-                        🌟Welcome to A.R.C.H. Allyship Resources for Change and Harmony!🌟
+                        🌟 Welcome to A.R.C.H. Allyship Resources for Change and Harmony! 🌟
                         </h4>
                         <p className="p">
                         At A.R.C.H., we believe in the power of allyship to create positive change in the workplace. 

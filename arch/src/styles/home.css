@@ -39,10 +39,10 @@
   }
   
   .homepage .text-wrapper {
-    color: #073b4c;
+     color: #000000;
     font-family: "Arial-Regular", Helvetica;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 900;
     left: 706px;
     letter-spacing: 0;
     line-height: normal;
@@ -52,10 +52,10 @@
   }
   
   .homepage .div {
-    color: #073b4c;
+    color: #000000;
     font-family: "Arial-Regular", Helvetica;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 900;
     left: 804px;
     letter-spacing: 0;
     line-height: normal;
@@ -65,10 +65,10 @@
   }
   
   .homepage .text-wrapper-2 {
-    color: #073b4c;
+    color: #000000;
     font-family: "Arial-Regular", Helvetica;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 900;
     left: 884px;
     letter-spacing: 0;
     line-height: normal;
@@ -97,7 +97,7 @@
     color: #ffffff;
     font-family: "Arial-Regular", Helvetica;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 900;
     left: 20px;
     letter-spacing: 0;
     line-height: normal;
@@ -175,7 +175,7 @@
     color: #073b4c;
     font-family: "Arial-Regular", Helvetica;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 900;
     left: 33px;
     letter-spacing: 0;
     line-height: normal;
@@ -185,10 +185,10 @@
   }
   
   .homepage .text-wrapper-7 {
-    color: #073b4c;
+   color: #000000;
     font-family: "Arial-Regular", Helvetica;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 900;
     left: 632px;
     letter-spacing: 0;
     line-height: normal;

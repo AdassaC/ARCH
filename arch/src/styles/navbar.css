@@ -1,32 +1,82 @@
-.navbar {
-    background-color: #ffd6ff;; /* Set the background color of the navbar */
-    padding: 10px 20px; /* Add padding to the navbar */
+ .navbar {
+    background-color: #ffffff;; 
+    padding: 10px 20px; 
     margin: 10px;
+   padding-bottom: 30px;
     border-style: solid;
     border-width: 3px;
    
   }
-  
+   
   .nav-list {
     list-style: none;
     padding: 0;
-    display: flex; /* Display the list items horizontally */
+    display: flex;
   }
   
   .nav-list li {
     margin: 0;
     padding: 0;
+
   }
+
+  .home
+  {
+    position: absolute;
+    left: 950px;
+  }
+
+   .disability
+  {
+    position: absolute;
+    left: 1026px;
+  }
+
+   .lgbtq
+  {
+    position: absolute;
+    left: 1120px;
+  }
+
+    .bipoc
+  {
+    position: absolute;
+    left: 1195px;
+  }
+
+     .bias
+  {
+    position: absolute;
+    left: 1276px;
+
+  }
+
+  .button
+  {
+     background-color: #073b4c;
+    
+    border-radius: 5px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    width: 70px; 
+  }
+
+
   
   .nav-list li a {
     text-decoration: none;
     color: #030303;
     font-weight: bold;
-    margin-right: 10px; /* Add space between the navigation items */
+    margin-right: 10px;
    
   }
   
   .nav-list li a:hover {
-    text-decoration: underline; /* Add underline on hover */
-  }
+    text-decoration: underline; 
+  } 
   
+  
+
